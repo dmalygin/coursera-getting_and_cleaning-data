@@ -37,4 +37,4 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 3. IDs of 6 types of activities were superseded with descriptive names according to file 'activity_labels.txt'
 4. Abbreviated names of measurements in header were superseded with descriptive names according to file **'features_info.txt' - this files is not mentioned in the table above**
 5. Measurements of tidy data frame generated through the previous steps was grouped by subjectId and activityName in order to get mean() of each volunteer and each of his activity. Since each person performed 6 activities, this final file contains 30*6 = 180 rows 
-6. In accordance to the task the final data frame was written to .txt file and uploaded ti the GitHub
+6. In accordance to the task the final data frame was written to .txt file and uploaded to the GitHub
