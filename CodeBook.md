@@ -17,7 +17,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 > **According to the task only 8 files from the archive 'UCI HAR Dataset.zip' was used for analysis**.
 **Information about the rest of the files can be obtained from the file 'README.txt' in the same [archive](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)**
 
-&nbsp;
+
 |    №   | TITLE  | DESCRIPTION |
 | ------ | ------ | ------- |
 | 1 | activity_labels.txt | IDs and Names for each of the 6 activities|
