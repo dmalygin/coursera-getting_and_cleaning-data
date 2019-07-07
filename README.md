@@ -25,17 +25,23 @@ Detailed steps of the manipulation on the data set are described below.
 | 4 | [tidy_dataset_human_activities.txt](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/tidy_dataset_human_activities.txt) |
 ---
 ### Steps of the project:
-1. Launch the script 'run_analysis.R'
-    1. The script will download automatically the [.zip archive with the data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
-    2. The script will unzip the archive
-    3. The script will read 8 required data files into a memory for further operations:
-        + activity_labels.txt
-        + features.txt
-        + subject_train.txt
-        + X_train.txt
-        + Y_train.txt
-        + subject_test.txt
-        + X_test.txt
-        + Y_test.txt
-    4. The script will perform necessary operations
-    5. As a result of the work the file [tidy_dataset_human_activities.txt](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/tidy_dataset_human_activities.txt) will be written by script
+Launch the script 'run_analysis.R'
+1. The script will download automatically the [.zip archive with the data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
+2. The script will unzip the archive
+3. The script will read 8 required data files into a memory for further operations:
+    + activity_labels.txt
+    + features.txt
+    + subject_train.txt
+    + X_train.txt
+    + Y_train.txt
+    + subject_test.txt
+    + X_test.txt
+    + Y_test.txt
+4. The script will perform necessary operations:
+    1. Read the files in appropriate data frames
+    2. Merge Train and Test data sets
+    3. Extract only measurements of 'mean' and 'std' parameters
+    4. Supersede activity ids with activity names
+    5. Supersede abbreviated names of measurements with full names
+    6. Write final tidy data set into the file 'tidy_dataset_human_activities.txt'
+5. As a result of the work the file [tidy_dataset_human_activities.txt](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/tidy_dataset_human_activities.txt) will be written by script
