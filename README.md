@@ -17,12 +17,12 @@ Detailed steps of the manipulation on the data set are described below.
 5. he work submitted for this project is the work of the student who submitted it.
 
 ### List of files for the project:
-| № | TITLE |
-| ------ | ------ |
-| 1 | [README.md](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/README.md) |
-| 2 | [CodeBook.md](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/CodeBook.md) |
-| 3 | [run_analysis.R](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/run_analysis.R) |
-| 4 | [tidy_dataset_human_activities.txt](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/tidy_dataset_human_activities.txt) |
+| № | TITLE | SUMMARY |
+| ------ | ------ | ------ |
+| 1 | [README.md](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/README.md) | Contains overall description and the goal of the task, list of the project's files and steps of the analysis|
+| 2 | [CodeBook.md](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/CodeBook.md) | Contains description of the files used in the analysis and detailed steps of the manipulation on the data set |
+| 3 | [run_analysis.R](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/run_analysis.R) | Contains the code performing the analysis |
+| 4 | [tidy_dataset_human_activities.txt](https://github.com/dmalygin/coursera-getting_and_cleaning-data/blob/master/tidy_dataset_human_activities.txt) | Contains data in tidy format ready for further analysis |
 ---
 ### Steps of the project:
 Launch the script 'run_analysis.R'
